@@ -257,25 +257,40 @@ nav {
 
 
 .project__img{
-   max-width: 200px;
+   width: 100%;
+   transition: all 500ms ease;
 }
 
+.project__wrapper {
+    display:flex;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.567);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
 
+.project__wrapper::before {
+  content:"";  
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1c1d25;
+  opacity: 0;
+  transition: opacity 450ms ease;
+  z-index: 2;
+}
+
+.project:hover .project__wrapper::before {
+    opacity: 0.6;
+} 
+
+.project:hover  .project__img{
+    transform: scale(1.07);
+    filter: blur(5px);
+}
 
 
 /* Media */ 
 
-@media screen and (max-width: 768px) {
-     .language__name {
-       margin: 20px;
-       font-size: smaller;
-    }
-
-    .language__img {
-        transform: scale(2);
-    }
-
-    .language:hover .language__img{
-        transform: scale(1.5);
-    }
-}
