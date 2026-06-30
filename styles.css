@@ -199,7 +199,7 @@ nav {
 }
 
 .container{
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 
@@ -255,7 +255,7 @@ nav {
 }
 
 .project:last-child {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .project__img{
    width: 100%;
@@ -336,5 +336,12 @@ nav {
 
 
 
-/* Media */ 
+/* Footer */ 
+
+
+footer {
+background-color: #302e2eb8;
+border-radius: 10px;
+}
+
 
