@@ -361,9 +361,11 @@ padding: 20px;
 
 .footer__container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 95%;
+    width: 100%;
+    margin: 40px auto;
+    gap: 20%;
 }
 .footer__logo--img-container {
     width: 100%;
@@ -371,7 +373,6 @@ padding: 20px;
 
 .footer__logo--img {
     max-width: 100px;
-    margin: 0 auto;
     display: inline;
     border-radius: 50%;
 
@@ -380,13 +381,30 @@ padding: 20px;
 .footer__social--list {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     font-size: 32px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .footer__social--link {
     color: white;
     text-decoration: none;
     transition: all 300ms ease;
+}
+
+.credit {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    gap: 10px;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+
+.credit a {
+    color: white;
+    text-decoration: none;
 }
