@@ -380,7 +380,7 @@ padding: 20px;
 }
 
 .footer__logo--img:hover{
-      transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg) scale(1.5);
 }
 
 .footer__social--list {
@@ -397,6 +397,10 @@ padding: 20px;
     transition: all 300ms ease;
 }
 
+.footer__social--link:hover {
+    color:#F297BD;
+}
+
 .credit {
     display: flex;
     justify-content: center;
@@ -404,7 +408,7 @@ padding: 20px;
     font-size: 15px;
     color: white;
     text-decoration: none;
-    gap: 10px;
+    gap: 7px;
     white-space: nowrap;
     flex-wrap: wrap;
 }
@@ -412,4 +416,14 @@ padding: 20px;
 .credit a {
     color: white;
     text-decoration: none;
+}
+
+.link__hover {
+    color: white;
+    transition: all 300ms ease;
+}
+
+.link__hover:hover  {
+   color:#F297BD;
+
 }
