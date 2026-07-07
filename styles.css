@@ -375,7 +375,12 @@ padding: 20px;
     max-width: 100px;
     display: inline;
     border-radius: 50%;
+    transition: all 1.2s ease;
+    cursor: default;
+}
 
+.footer__logo--img:hover{
+      transform: rotate(360deg) scale(1.5);
 }
 
 .footer__social--list {
