@@ -16,7 +16,7 @@ html {
 body {
     background-color: white;
     max-width: 80%;
-    margin: 0 auto;
+    margin: 0  auto;
     border-radius: 20px;
     border:2px solid #302e2eb8;
 }
@@ -364,8 +364,9 @@ padding: 20px;
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
-    margin: 40px auto;
+    margin: 2px auto;
     gap: 10px;
+    
 }
 .footer__logo--img-container {
     max-width: 100%;
@@ -386,7 +387,8 @@ padding: 20px;
 .footer__social--list {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
+    margin-right: 25px;
     font-size: 32px;
     gap: 20px;
     max-width: 100%;    
@@ -405,14 +407,15 @@ padding: 20px;
 .credit {
     display: flex;
     justify-content: center;
-    align-items: end;
-    font-size: 11px;
+    align-items: center;
+    font-size: 14px;
     color: white;
     text-decoration: none;
-    gap: 7px;
+    gap: 5px;
     white-space: nowrap;
     flex-wrap: wrap;
 }
+
 
 .credit a {
     color: white;
