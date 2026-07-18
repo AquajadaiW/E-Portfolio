@@ -80,6 +80,7 @@ li {
     width:100%;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 
@@ -526,8 +527,19 @@ padding: 20px;
         font-size: 16px;
     }
 
+    .language {
+        width: calc(100% /2);
+    }
+
     .project__wrapper {
         max-width: 80%;
+    }
+
+    .project__description--para {
+        font-size: 14px;
+    }
+    .project__description--title {
+        font-size: 24px;
     }
 
     .footer__container {
@@ -550,4 +562,19 @@ padding: 20px;
         align-items: center;
         justify-content: center;
     }
+}
+
+
+@media (max-width: 480px) {
+
+  .personal__logo {
+    width: 25%;    
+    margin: 0 8px;
+  }
+
+  .nav__link--list {
+    max-width: fit-content;
+    font-size: 10px;        
+    padding-right: 20px;  
+  }
 }
