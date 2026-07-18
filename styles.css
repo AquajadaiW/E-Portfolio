@@ -567,14 +567,37 @@ padding: 20px;
 
 @media (max-width: 480px) {
 
-  .personal__logo {
-    width: 25%;    
-    margin: 0 8px;
+  .nav__link:not(:last-child) {
+    display:none;
+  } 
+
+  .project__description {
+    padding: 0;
+    margin: 0 auto;
+    left: 0;
+    width: 100%;
+   
+  }
+  .project__description--para {
+    display: none;
   }
 
-  .nav__link--list {
-    max-width: fit-content;
-    font-size: 10px;        
-    padding-right: 20px;  
+  .project__description--links {
+    display: flex;
+    justify-content: center;
   }
+
+  .project__description--sub-title {
+    text-align: center;
+    margin: 12px 0;
+  }
+
+  .project__description--title {
+    line-height: 1;
+    font-size: 24px; 
+    text-align: center;
+  }
+
+  
+
 }
